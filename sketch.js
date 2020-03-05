@@ -46,9 +46,6 @@ function draw3(){
   stroke(255);
   strokeWeight(8);
   ellipse(mouseX, mouseY, 45, 45);
-  if (keyCode == SHIFT){
-    ellipse(mouseX, mouseY, 10, 10);
-  }
 }
 
 function keyPressed(){
