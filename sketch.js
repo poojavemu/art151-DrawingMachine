@@ -32,7 +32,7 @@ function mousePressed(){
 
 function draw2(){
   for (let i = 0; i < 5000; i=i+20) {
-      fill(255+mouseX, random(100,255)-mouseX, random(0,100)-mouseY);
+      fill(mouseX, random(100,255)-mouseX, random(0,100)-mouseY);
       triangle(50+i, 50+i, 200-i, (2*i), 50+(2*i), 100+i);
       triangle(100+i, 50+(2*i), (2*i), 200-i, 50+i, 50+i);
   }
